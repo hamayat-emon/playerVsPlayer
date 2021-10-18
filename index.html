@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Player Vs Player</title>
+    <style>
+      html {
+        font-size: 62.5%;
+      }
+      .container {
+        text-align: center;
+        max-width: 600px;
+        margin: 0 auto;
+      }
+      p {
+        font-size: 2rem;
+      }
+
+      p span {
+        margin-right: 1rem;
+      }
+      form {
+        display: inline;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Player Vs Player</h1>
+      <p>Winning Score: <span class="winScore"></span></p>
+      <p>
+        Player-1: <span class="p1Score"></span> Player-2:
+        <span class="p2Score"></span>
+      </p>
+      <form>
+        <input type="number" id="input" />
+        <button>Submit</button>
+      </form>
+
+      <button class="p1Btn">Player 1</button>
+      <button class="p2Btn">Player 2</button>
+      <button class="reset">Reset</button>
+    </div>
+    <script src="BootCamp.js"></script>
+  </body>
+</html>
